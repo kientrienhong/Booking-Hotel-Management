@@ -1,0 +1,176 @@
+2020-10-21 ERROR [http-nio-8084-exec-2] (FilterDispatcher.java:150) - java.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key createAccount.html
+2020-10-24 ERROR [http-nio-8084-exec-40] (SignUpServlet.java:118) - com.microsoft.sqlserver.jdbc.SQLServerException: String or binary data would be truncated.
+2020-10-24 ERROR [http-nio-8084-exec-36] (FilterDispatcher.java:150) - java.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key createAccount.html
+2020-10-24 ERROR [http-nio-8084-exec-32] (FilterDispatcher.java:150) - java.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key login.html
+2020-10-24 ERROR [http-nio-8084-exec-65] (FilterDispatcher.java:150) - java.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key login.html
+2020-10-24 ERROR [http-nio-8084-exec-67] (FilterDispatcher.java:150) - java.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key search
+2020-10-25 ERROR [http-nio-8084-exec-15] (FilterDispatcher.java:150) - java.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key search
+2020-10-25 ERROR [http-nio-8084-exec-38] (SearchService.java:49) - com.microsoft.sqlserver.jdbc.SQLServerException: Invalid column name 'idType'.
+2020-10-25 ERROR [http-nio-8084-exec-38] (GetAvailableRoomsServlet.java:79) - com.microsoft.sqlserver.jdbc.SQLServerException: Invalid object name 'tblInvoke'.
+2020-10-25 ERROR [http-nio-8084-exec-53] (SearchService.java:49) - com.microsoft.sqlserver.jdbc.SQLServerException: Invalid column name 'type'.
+2020-10-25 ERROR [http-nio-8084-exec-53] (GetAvailableRoomsServlet.java:79) - com.microsoft.sqlserver.jdbc.SQLServerException: Invalid column name 'quantity'.
+2020-10-25 ERROR [http-nio-8084-exec-67] (SearchService.java:49) - com.microsoft.sqlserver.jdbc.SQLServerException: Invalid column name 'name'.
+2020-10-25 ERROR [http-nio-8084-exec-67] (GetAvailableRoomsServlet.java:79) - com.microsoft.sqlserver.jdbc.SQLServerException: Invalid column name 'quantity'.
+2020-10-25 ERROR [http-nio-8084-exec-87] (SearchService.java:49) - com.microsoft.sqlserver.jdbc.SQLServerException: Invalid column name 'name'.
+2020-10-25 ERROR [http-nio-8084-exec-87] (GetAvailableRoomsServlet.java:80) - com.microsoft.sqlserver.jdbc.SQLServerException: Invalid column name 'quantity'.
+2020-10-25 ERROR [http-nio-8084-exec-106] (GetAvailableRoomsServlet.java:79) - com.microsoft.sqlserver.jdbc.SQLServerException: Conversion failed when converting the nvarchar value 'test1@gmail.com_HT2' to data type int.
+2020-10-25 ERROR [http-nio-8084-exec-101] (GetAvailableRoomsServlet.java:81) - com.microsoft.sqlserver.jdbc.SQLServerException: Conversion failed when converting the nvarchar value 'test1@gmail.com_HT2' to data type int.
+2020-10-25 ERROR [http-nio-8084-exec-121] (GetAvailableRoomsServlet.java:79) - com.microsoft.sqlserver.jdbc.SQLServerException: Conversion failed when converting the nvarchar value 'test1@gmail.com_HT2' to data type int.
+2020-10-25 ERROR [http-nio-8084-exec-139] (GetAvailableRoomsServlet.java:79) - com.microsoft.sqlserver.jdbc.SQLServerException: Conversion failed when converting the nvarchar value 'test1@gmail.com_HT2' to data type int.
+2020-10-25 ERROR [http-nio-8084-exec-192] (FilterDispatcher.java:150) - javax.servlet.ServletException: Servlet execution threw an exception
+2020-10-25 ERROR [http-nio-8084-exec-197] (FilterDispatcher.java:150) - javax.servlet.ServletException: 
+
+The server side component of the HTTP Monitor has detected a java.lang.StackOverflowError.
+This happens when there is an infinite loop in the web module.
+Correct the cause of the infinite loop before running the web module again.
+
+
+2020-10-25 ERROR [http-nio-8084-exec-218] (FilterDispatcher.java:150) - org.apache.jasper.JasperException: An exception occurred processing JSP page /search.jsp at line 102
+
+99:                     <c:forEach var="room" items="${entry.value}">
+100:                         <div class="card" style="width: 18rem;">
+101:                             <div class="card-body">
+102:                                 <h5 class="card-title">${entry.name}</h5>
+103:                                 <p class="card-text">Area: ${entry.area}</p>
+104:                                 <p class="card-text">Room Type: ${room.type}</p>
+105:                                 <p class="card-text">Price: ${room.price}</p>
+
+
+Stacktrace:
+2020-10-25 ERROR [http-nio-8084-exec-219] (FilterDispatcher.java:150) - org.apache.jasper.JasperException: javax.el.PropertyNotFoundException: Property 'name' not found on type java.util.HashMap$Node
+2020-10-25 ERROR [http-nio-8084-exec-223] (FilterDispatcher.java:150) - org.apache.jasper.JasperException: An exception occurred processing JSP page /search.jsp at line 99
+
+96:                             <input class="btn btn-outline-success my-2 my-sm-0" type="submit" value="Search"/>
+97:                         </div>
+98:                         <div class="form-group row">
+99:                             <c:if test="${not empty SEARCH_ERROR.setEmptyError}">
+100:                                 <div class="form-group row">
+101:                                     <div class="col-12"></div>
+102:                                     <div class="alert alert-danger col-8" role="alert">
+
+
+Stacktrace:
+2020-10-25 ERROR [http-nio-8084-exec-227] (FilterDispatcher.java:150) - org.apache.jasper.JasperException: An exception occurred processing JSP page /search.jsp at line 99
+
+96:                             <input class="btn btn-outline-success my-2 my-sm-0" type="submit" value="Search"/>
+97:                         </div>
+98:                         <div class="form-group row">
+99:                             <c:if test="${not empty SEARCH_ERROR.setEmptyError}">
+100:                                 <div class="form-group row">
+101:                                     <div class="col-12"></div>
+102:                                     <div class="alert alert-danger col-8" role="alert">
+
+
+Stacktrace:
+2020-10-25 ERROR [http-nio-8084-exec-230] (SearchServlet.java:92) - java.text.ParseException: Unparseable date: "a"
+2020-10-25 ERROR [http-nio-8084-exec-230] (SearchServlet.java:105) - java.text.ParseException: Unparseable date: "a"
+2020-10-25 ERROR [http-nio-8084-exec-230] (SearchServlet.java:125) - java.lang.NumberFormatException: For input string: "a"
+2020-10-25 ERROR [http-nio-8084-exec-238] (SearchServlet.java:92) - java.text.ParseException: Unparseable date: "2020-10-13"
+2020-10-25 ERROR [http-nio-8084-exec-238] (SearchServlet.java:105) - java.text.ParseException: Unparseable date: "2020-10-06"
+2020-10-25 ERROR [http-nio-8084-exec-240] (SearchServlet.java:92) - java.text.ParseException: Unparseable date: "2020-10-25"
+2020-10-25 ERROR [http-nio-8084-exec-240] (SearchServlet.java:105) - java.text.ParseException: Unparseable date: "2020-10-05"
+2020-10-25 ERROR [http-nio-8084-exec-250] (SearchServlet.java:94) - java.text.ParseException: Unparseable date: "2020-10-27"
+2020-10-25 ERROR [http-nio-8084-exec-250] (SearchServlet.java:107) - java.text.ParseException: Unparseable date: "2020-10-04"
+2020-10-25 ERROR [http-nio-8084-exec-256] (FilterDispatcher.java:150) - java.lang.ClassCastException: java.util.Date cannot be cast to java.sql.Date
+2020-10-25 ERROR [http-nio-8084-exec-264] (SearchServlet.java:127) - java.lang.NumberFormatException: For input string: "a"
+2020-10-25 ERROR [http-nio-8084-exec-270] (SearchServlet.java:127) - java.lang.NumberFormatException: For input string: "a"
+2020-10-25 ERROR [http-nio-8084-exec-274] (SearchServlet.java:127) - java.lang.NumberFormatException: For input string: "a"
+2020-10-25 ERROR [http-nio-8084-exec-375] (GetAvailableRoomsServlet.java:99) - java.text.ParseException: Unparseable date: ""
+2020-10-25 ERROR [http-nio-8084-exec-474] (FilterDispatcher.java:150) - java.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key login.html
+2020-10-29 ERROR [http-nio-8084-exec-16] (GetAvailableRoomsServlet.java:91) - java.text.ParseException: Unparseable date: ""
+2020-10-29 ERROR [http-nio-8084-exec-21] (GetAvailableRoomsServlet.java:92) - java.text.ParseException: Unparseable date: ""
+2020-10-29 ERROR [http-nio-8084-exec-19] (GetAvailableRoomsServlet.java:91) - java.text.ParseException: Unparseable date: ""
+2020-10-29 ERROR [http-nio-8084-exec-32] (FilterDispatcher.java:150) - java.lang.NumberFormatException: For input string: ""
+2020-10-29 ERROR [http-nio-8084-exec-37] (FilterDispatcher.java:150) - java.lang.NumberFormatException: For input string: ""
+2020-10-29 ERROR [http-nio-8084-exec-51] (FilterDispatcher.java:150) - java.lang.NumberFormatException: For input string: ""
+2020-10-29 ERROR [http-nio-8084-exec-52] (SearchServlet.java:125) - java.lang.NumberFormatException: For input string: "a"
+2020-10-29 ERROR [http-nio-8084-exec-52] (FilterDispatcher.java:150) - java.lang.NumberFormatException: For input string: "a"
+2020-10-29 ERROR [http-nio-8084-exec-63] (GetAvailableRoomsServlet.java:93) - java.text.ParseException: Unparseable date: ""
+2020-10-29 ERROR [http-nio-8084-exec-71] (GetAvailableRoomsServlet.java:93) - java.text.ParseException: Unparseable date: ""
+2020-10-29 ERROR [http-nio-8084-exec-75] (GetAvailableRoomsServlet.java:93) - java.text.ParseException: Unparseable date: ""
+2020-10-29 ERROR [http-nio-8084-exec-199] (FilterDispatcher.java:150) - java.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key login.html
+2020-10-31 ERROR [http-nio-8084-exec-23] (CreateCouponServlet.java:107) - com.microsoft.sqlserver.jdbc.SQLServerException: The index 4 is out of range.
+2020-10-31 ERROR [http-nio-8084-exec-21] (CreateCouponServlet.java:107) - com.microsoft.sqlserver.jdbc.SQLServerException: Violation of PRIMARY KEY constraint 'PK_Coupon'. Cannot insert duplicate key in object 'dbo.tblCoupon'.
+2020-10-31 ERROR [http-nio-8084-exec-26] (GetAvailableRoomsServlet.java:92) - java.text.ParseException: Unparseable date: ""
+2020-10-31 ERROR [http-nio-8084-exec-151] (FilterDispatcher.java:150) - org.apache.jasper.JasperException: javax.el.PropertyNotFoundException: Property 'idRoomType' not found on type trienhk.tblroom.TblRoomDTO
+2020-10-31 ERROR [http-nio-8084-exec-230] (FilterDispatcher.java:150) - java.lang.NumberFormatException: For input string: ""
+2020-10-31 ERROR [http-nio-8084-exec-24] (FilterDispatcher.java:150) - org.apache.jasper.JasperException: An exception occurred processing JSP page /search.jsp at line 51
+
+48:                 </form>
+49:             </c:if>
+50:             <c:if test="${NAME_ROLE eq 'member'}">
+51:                 <a href="" style="position: absolute; right: 10%; top: 20%;" class="btn btn-primary">Cart(${CART.getTotalItemsAmount})</a>
+52:             </c:if>
+53:         </nav>
+54:         <div class="d-flex justify-content-center" style="margin-top: 2%">
+
+
+Stacktrace:
+2020-10-31 ERROR [http-nio-8084-exec-33] (FilterDispatcher.java:150) - org.apache.jasper.JasperException: An exception occurred processing JSP page /search.jsp at line 51
+
+48:                 </form>
+49:             </c:if>
+50:             <c:if test="${NAME_ROLE eq 'member'}">
+51:                 <a href="" style="position: absolute; right: 10%; top: 20%;" class="btn btn-primary">Cart(${CART.getTotalItemsAmount()})</a>
+52:             </c:if>
+53:         </nav>
+54:         <div class="d-flex justify-content-center" style="margin-top: 2%">
+
+
+Stacktrace:
+2020-10-31 ERROR [http-nio-8084-exec-38] (FilterDispatcher.java:150) - org.apache.jasper.JasperException: An exception occurred processing JSP page /search.jsp at line 51
+
+48:                 </form>
+49:             </c:if>
+50:             <c:if test="${NAME_ROLE eq 'member'}">
+51:                 <a href="" style="position: absolute; right: 10%; top: 20%;" class="btn btn-primary">Cart(${CART.getTotalItemsAmount()})</a>
+52:             </c:if>
+53:         </nav>
+54:         <div class="d-flex justify-content-center" style="margin-top: 2%">
+
+
+Stacktrace:
+2020-10-31 ERROR [http-nio-8084-exec-59] (AddToCartServlet.java:85) - com.microsoft.sqlserver.jdbc.SQLServerException: Invalid column name 'idType'.
+2020-10-31 ERROR [http-nio-8084-exec-91] (GetAvailableRoomsServlet.java:102) - java.text.ParseException: Unparseable date: ""
+2020-11-01 ERROR [http-nio-8084-exec-10] (FilterDispatcher.java:150) - java.lang.NumberFormatException: For input string: ""
+2020-11-01 ERROR [http-nio-8084-exec-11] (FilterDispatcher.java:150) - java.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key loadInfoMap
+2020-11-01 ERROR [http-nio-8084-exec-15] (FilterAuthentication.java:153) - org.apache.jasper.JasperException: An exception occurred processing JSP page /viewCart.jsp at line 65
+
+62:                             <td>${mapRoom.get(splitedKey[1])}</td>
+63:                             <td>
+64:                                 <form action="modifyQuantityMember">
+65:                                     <input type="hidden" name="txtId" value="${room.id}" />
+66:                                     <input type="submit" value="-" class="btn btn-primary"/>
+67:                                     <input type="hidden" name="txtIsIncrease" value="no" />
+68:                                 </form>
+
+
+Stacktrace:
+2020-11-01 ERROR [http-nio-8084-exec-29] (FilterAuthentication.java:153) - java.lang.NullPointerException
+2020-11-02 ERROR [http-nio-8084-exec-150] (SearchHistoryBookingServlet.java:92) - com.microsoft.sqlserver.jdbc.SQLServerException: Invalid column name 'hotelId'.
+2020-11-02 ERROR [http-nio-8084-exec-214] (SearchHistoryBookingServlet.java:90) - com.microsoft.sqlserver.jdbc.SQLServerException: Incorrect syntax near 'DESCWhere'.
+2020-11-02 ERROR [http-nio-8084-exec-220] (SearchHistoryBookingServlet.java:90) - com.microsoft.sqlserver.jdbc.SQLServerException: Incorrect syntax near the keyword 'Where'.
+2020-11-02 ERROR [http-nio-8084-exec-223] (SearchHistoryBookingServlet.java:90) - com.microsoft.sqlserver.jdbc.SQLServerException: Invalid column name 'date'.
+2020-11-02 ERROR [http-nio-8084-exec-242] (FilterDispatcher.java:150) - org.apache.jasper.JasperException: An exception occurred processing JSP page /bookingHistory.jsp at line 69
+
+66:                                     <input type="submit" class="btn btn-danger col-2" style="margin-left: 100px">Delete Article</input>
+67:                                 </div>
+68:                                 </form>
+69:                                 <p class="card-text">Check in date: ${bookingDTO.date}</p>
+70:                                 <p class="card-text">Check out date: ${bookingDTO.description}</p>
+71:                                 <p class="card-text">Booking date: ${bookingDTO.description}</p>
+72:                                 <p class="card-text">Total price: ${bookingDTO.description}</p>
+
+
+Stacktrace:
+2020-11-02 ERROR [http-nio-8084-exec-304] (FilterDispatcher.java:150) - java.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key notFoundPage
+2020-11-02 ERROR [http-nio-8084-exec-339] (FilterDispatcher.java:150) - java.lang.NumberFormatException: For input string: ""
+2020-11-02 ERROR [http-nio-8084-exec-331] (SearchHistoryBookingServlet.java:90) - com.microsoft.sqlserver.jdbc.SQLServerException: Invalid column name 'idHotel'.
+2020-11-02 ERROR [http-nio-8084-exec-380] (SearchHistoryBookingServlet.java:93) - com.microsoft.sqlserver.jdbc.SQLServerException: Invalid column name 'idHotel'.
+2020-11-02 ERROR [http-nio-8084-exec-360] (SearchHistoryBookingServlet.java:93) - com.microsoft.sqlserver.jdbc.SQLServerException: Invalid column name 'idHotel'.
+2020-11-02 ERROR [http-nio-8084-exec-489] (CreateCouponServlet.java:105) - com.microsoft.sqlserver.jdbc.SQLServerException: Violation of PRIMARY KEY constraint 'PK_Coupon'. Cannot insert duplicate key in object 'dbo.tblCoupon'.
+2020-11-02 ERROR [http-nio-8084-exec-493] (FilterDispatcher.java:150) - java.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key createAccount.html
+2020-11-02 ERROR [http-nio-8084-exec-499] (FilterDispatcher.java:150) - java.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key createAccount.html
+2020-11-02 ERROR [http-nio-8084-exec-508] (FilterDispatcher.java:150) - java.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key createAccount.html
+2020-11-02 ERROR [http-nio-8084-exec-505] (FilterDispatcher.java:150) - java.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key createAccount.html
+2020-11-02 ERROR [http-nio-8084-exec-516] (FilterDispatcher.java:150) - java.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key createAccount.html

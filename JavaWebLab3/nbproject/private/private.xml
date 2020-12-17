@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/HongKienTrien/SE1407_SE140737_HongKienTrien_LAB3_1/JavaWebLab3/src/java/trienhk/properties/mapping.properties</file>
+            <file>file:/D:/HongKienTrien/SE1407_SE140737_HongKienTrien_LAB3_1/JavaWebLab3/web/loadBookedRoomListMember.jsp</file>
+            <file>file:/D:/HongKienTrien/SE1407_SE140737_HongKienTrien_LAB3_1/JavaWebLab3/web/confirmResetPassord.jsp</file>
+            <file>file:/D:/HongKienTrien/SE1407_SE140737_HongKienTrien_LAB3_1/JavaWebLab3/web/createAccount.jsp</file>
+            <file>file:/D:/HongKienTrien/SE1407_SE140737_HongKienTrien_LAB3_1/JavaWebLab3/src/java/trienhk/servlets/SearchServlet.java</file>
+            <file>file:/D:/HongKienTrien/SE1407_SE140737_HongKienTrien_LAB3_1/JavaWebLab3/web/search.jsp</file>
+            <file>file:/D:/HongKienTrien/SE1407_SE140737_HongKienTrien_LAB3_1/JavaWebLab3/src/java/trienhk/servlets/ValidateCheckOutServlet.java</file>
+            <file>file:/D:/HongKienTrien/SE1407_SE140737_HongKienTrien_LAB3_1/JavaWebLab3/src/java/trienhk/servlets/CheckOutServlet.java</file>
+            <file>file:/D:/HongKienTrien/SE1407_SE140737_HongKienTrien_LAB3_1/JavaWebLab3/src/java/trienhk/servlets/SearchHistoryBookingServlet.java</file>
+            <file>file:/D:/HongKienTrien/SE1407_SE140737_HongKienTrien_LAB3_1/JavaWebLab3/src/java/trienhk/servlets/LoginServlet.java</file>
+        </group>
+    </open-files>
+</project-private>
